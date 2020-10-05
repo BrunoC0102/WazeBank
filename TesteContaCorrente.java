@@ -28,13 +28,6 @@ public class TesteContaCorrente {
                     conta.setNome_cliente(sc.next());
 
                     conta.setLimite_especial(1000);
-                    
-                    // double aux = -1;
-                    // do {
-                    //     System.out.print("\nLimite do especial [Deve ser um valor positivo]: ");
-                    //     aux = sc.nextDouble();
-                    //     conta.setLimite_especial(aux);
-                    // }while(aux < 0);
 
                     contas.add(conta);
 
